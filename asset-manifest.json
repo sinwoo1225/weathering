@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/github.io/weathering/static/css/main.0ce1eae5.chunk.css",
+    "main.js": "/github.io/weathering/static/js/main.fd8b55da.chunk.js",
+    "main.js.map": "/github.io/weathering/static/js/main.fd8b55da.chunk.js.map",
+    "runtime-main.js": "/github.io/weathering/static/js/runtime-main.03943392.js",
+    "runtime-main.js.map": "/github.io/weathering/static/js/runtime-main.03943392.js.map",
+    "static/js/2.c517009f.chunk.js": "/github.io/weathering/static/js/2.c517009f.chunk.js",
+    "static/js/2.c517009f.chunk.js.map": "/github.io/weathering/static/js/2.c517009f.chunk.js.map",
+    "index.html": "/github.io/weathering/index.html",
+    "precache-manifest.3714aaec3810ccfd207769c84cc0b338.js": "/github.io/weathering/precache-manifest.3714aaec3810ccfd207769c84cc0b338.js",
+    "service-worker.js": "/github.io/weathering/service-worker.js",
+    "static/css/main.0ce1eae5.chunk.css.map": "/github.io/weathering/static/css/main.0ce1eae5.chunk.css.map",
+    "static/js/2.c517009f.chunk.js.LICENSE.txt": "/github.io/weathering/static/js/2.c517009f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.03943392.js",
+    "static/js/2.c517009f.chunk.js",
+    "static/css/main.0ce1eae5.chunk.css",
+    "static/js/main.fd8b55da.chunk.js"
+  ]
+}
