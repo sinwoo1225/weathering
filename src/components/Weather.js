@@ -20,7 +20,7 @@ function Weather({weather, temp, location}){
             <div className="weather__column height_100">
                 <div className="centerContainer font_title">
                 <span className="weather__icon">{getWeatherIcon(weather)}</span>
-                    {weather} {temp}º
+                <span className="weather__content">{weather} {temp}º</span>   
                 </div>
             </div> 
         </div>

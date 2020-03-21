@@ -27,5 +27,10 @@
 
 .weather__icon{
     display: block;
-    font-size: 6.3rem;
+    font-size: 12rem;
+}
+
+.weather__content{
+    margin-top: -75px;
+    font-size: 2.25rem;
 }
