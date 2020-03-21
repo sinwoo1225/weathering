@@ -1,0 +1,11 @@
+.loadingBox{
+    display:flex;
+    justify-content: center;
+    padding:0px 3px;
+    align-items: center;
+    width:inherit;
+    height: inherit;
+    background: #F09819;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EDDE5D, #F09819);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EDDE5D, #F09819); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
