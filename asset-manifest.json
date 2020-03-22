@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/weathering/static/css/main.ba59285f.chunk.css",
+    "main.css": "/weathering/static/css/main.7c77e729.chunk.css",
     "main.js": "/weathering/static/js/main.35c0288c.chunk.js",
     "main.js.map": "/weathering/static/js/main.35c0288c.chunk.js.map",
     "runtime-main.js": "/weathering/static/js/runtime-main.41240dac.js",
@@ -8,15 +8,15 @@
     "static/js/2.f413a96f.chunk.js": "/weathering/static/js/2.f413a96f.chunk.js",
     "static/js/2.f413a96f.chunk.js.map": "/weathering/static/js/2.f413a96f.chunk.js.map",
     "index.html": "/weathering/index.html",
-    "precache-manifest.63259d7e779005b367749605ac60b77b.js": "/weathering/precache-manifest.63259d7e779005b367749605ac60b77b.js",
+    "precache-manifest.170f210f8b628a26861e7d781188a574.js": "/weathering/precache-manifest.170f210f8b628a26861e7d781188a574.js",
     "service-worker.js": "/weathering/service-worker.js",
-    "static/css/main.ba59285f.chunk.css.map": "/weathering/static/css/main.ba59285f.chunk.css.map",
+    "static/css/main.7c77e729.chunk.css.map": "/weathering/static/css/main.7c77e729.chunk.css.map",
     "static/js/2.f413a96f.chunk.js.LICENSE.txt": "/weathering/static/js/2.f413a96f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.41240dac.js",
     "static/js/2.f413a96f.chunk.js",
-    "static/css/main.ba59285f.chunk.css",
+    "static/css/main.7c77e729.chunk.css",
     "static/js/main.35c0288c.chunk.js"
   ]
 }
