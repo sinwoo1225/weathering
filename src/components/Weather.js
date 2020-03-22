@@ -5,10 +5,7 @@ import "./Weather.css";
 import "./WeatherGradient.css"
 
 // Icon Import
-import { FaRainbow,FaCloudShowersHeavy,FaCloud} from "react-icons/fa";
-import { IoIosThunderstorm } from "react-icons/io";
-import { TiAdjustBrightness } from "react-icons/ti";
-import { WiSprinkle,WiSmoke,WiDust, WiVolcano,WiCloudyGusts,WiTornado } from "react-icons/wi";
+import { WiSnow,WiDayHaze, WiThunderstorm, WiUmbrella,WiCloud,WiDaySunny, WiNa,WiSprinkle,WiSmoke,WiDust, WiVolcano,WiCloudyGusts,WiTornado, WiFog } from "react-icons/wi";
 
 
 function Weather({weather, temp, location}){   
@@ -46,23 +43,25 @@ const WeatherGradients = {
     "Dust":"gradient_mini",
     "Ash":"gradient_ash",
     "Squall":"gradient_darya",
-    "Tornado":"gradient_50gray"
+    "Tornado":"gradient_50gray",
+    "Snow":"gradient_jonquil",
+    "Fog":"gradient_moor"
 };
 
 function getWeatherIcon(weather){
     switch(weather){
         case "Clear":
-            return <TiAdjustBrightness/>;
+            return <WiDaySunny/>;
         case "Drizzle":
             return <WiSprinkle/>;
         case "Clouds":
-            return <FaCloud/>;
+            return <WiCloud/>;
         case "Rain":
-            return <FaCloudShowersHeavy/>
+            return <WiUmbrella/>;
         case "Thunderstorm":
-            return <IoIosThunderstorm/>;
+            return <WiThunderstorm/>;
         case "Haze":
-            return <FaCloud/>;
+            return <WiDayHaze/>;
         case "Mist":
             return <WiSprinkle/>;
         case "Smoke":
@@ -77,8 +76,12 @@ function getWeatherIcon(weather){
             return <WiCloudyGusts/>;    
         case "Tornado":
             return <WiTornado/>;
+        case "Snow":
+            return <WiSnow/>;
+        case "Fog":
+            return <WiFog/>;
         default:
-            return <FaRainbow/>;
+            return <WiNa/>;
     }
 }
 
